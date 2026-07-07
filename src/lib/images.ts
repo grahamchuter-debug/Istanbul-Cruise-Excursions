@@ -1,0 +1,86 @@
+export interface SiteImage {
+  src: string;
+  alt: string;
+}
+
+const B = "/images";
+
+export const siteImages = {
+  hero: {
+    src: `${B}/hero-home.jpg`,
+    alt: "Hagia Sophia and Blue Mosque skyline above the Golden Horn at golden hour — Istanbul cruise port",
+  },
+  ogDefault: {
+    src: `${B}/og-default.jpg`,
+    alt: "Istanbul Historic Peninsula with Hagia Sophia dome and minarets — cruise excursion planning",
+  },
+  logo: {
+    src: `${B}/logo-mark.svg`,
+    alt: "Istanbul Cruise Excursions",
+  },
+  port: {
+    src: `${B}/cruise-port.jpg`,
+    alt: "Galataport Istanbul cruise terminal on the Bosphorus waterfront",
+  },
+} as const;
+
+export const subjectImages: Record<string, SiteImage> = {
+  "hagia-sophia": { src: `${B}/hagia-sophia.jpg`, alt: "Hagia Sophia dome and minarets in Istanbul's Historic Peninsula" },
+  "blue-mosque": { src: `${B}/blue-mosque.jpg`, alt: "Blue Mosque courtyard and cascading domes in Sultanahmet" },
+  "topkapi-palace": { src: `${B}/topkapi-palace.jpg`, alt: "Topkapi Palace gates overlooking the Bosphorus" },
+  "basilica-cistern": { src: `${B}/basilica-cistern.jpg`, alt: "Illuminated columns inside the Basilica Cistern" },
+  "grand-bazaar": { src: `${B}/grand-bazaar.jpg`, alt: "Colourful lanterns and stalls in Istanbul's Grand Bazaar" },
+  "spice-bazaar": { src: `${B}/spice-bazaar.jpg`, alt: "Spice pyramids at Istanbul's Egyptian Spice Bazaar" },
+  bosphorus: { src: `${B}/bosphorus.jpg`, alt: "Bosphorus strait with mosques and waterfront palaces" },
+  food: { src: `${B}/food.jpg`, alt: "Turkish meze, kebabs and traditional dishes in Istanbul" },
+  highlights: { src: `${B}/highlights.jpg`, alt: "Istanbul skyline with Hagia Sophia and the Bosphorus" },
+  walking: { src: `${B}/walking.jpg`, alt: "Walking across Galata Bridge from Galataport toward Sultanahmet" },
+  "europe-asia": { src: `${B}/europe-asia.jpg`, alt: "Bosphorus crossing between Europe and Asia in Istanbul" },
+  planner: { src: `${B}/city-highlights.jpg`, alt: "Planning an Istanbul cruise port day" },
+  "city-highlights": { src: `${B}/city-highlights.jpg`, alt: "Panoramic view over Istanbul's Historic Peninsula" },
+  galataport: { src: `${B}/cruise-port.jpg`, alt: "Galataport Istanbul cruise terminal" },
+  comparison: { src: `${B}/highlights.jpg`, alt: "Istanbul cruise excursion comparison" },
+};
+
+function pick(key: string): SiteImage {
+  return subjectImages[key] ?? siteImages.ogDefault;
+}
+
+const excursionImageKeys: Record<string, string> = {
+  "istanbul-highlights-tour": "highlights",
+  "hagia-sophia-and-blue-mosque-tour": "hagia-sophia",
+  "topkapi-palace-tour": "topkapi-palace",
+  "basilica-cistern-tour": "basilica-cistern",
+  "grand-bazaar-and-spice-bazaar-tour": "grand-bazaar",
+  "bosphorus-cruise": "bosphorus",
+  "europe-and-asia-tour": "europe-asia",
+  "istanbul-food-tour": "food",
+  "private-istanbul-shore-excursion": "highlights",
+  "istanbul-walking-tour": "walking",
+};
+
+export function getExcursionImage(slug: string): SiteImage {
+  return pick(excursionImageKeys[slug] ?? "city-highlights");
+}
+
+export const excursionsHubImage = pick("highlights");
+
+const guideImageKeys: Record<string, string> = {
+  "hagia-sophia": "hagia-sophia",
+  "blue-mosque": "blue-mosque",
+  "topkapi-palace": "topkapi-palace",
+  "basilica-cistern": "basilica-cistern",
+  "grand-bazaar": "grand-bazaar",
+  "spice-bazaar": "spice-bazaar",
+  bosphorus: "bosphorus",
+  food: "food",
+  walking: "walking",
+  "europe-asia": "europe-asia",
+  highlights: "highlights",
+  comparison: "comparison",
+  "city-highlights": "city-highlights",
+};
+
+export function getGuideImage(key: string): SiteImage {
+  return pick(guideImageKeys[key] ?? key);
+}

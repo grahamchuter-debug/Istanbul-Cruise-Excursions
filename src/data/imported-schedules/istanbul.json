@@ -1,0 +1,157 @@
+[
+  {
+    "date": "2026-04-18",
+    "ship": "MSC Splendida",
+    "cruiseLine": "MSC Cruises",
+    "arrival": "08:00",
+    "departure": "18:00",
+    "timeInPort": "10 hours",
+    "terminal": "Galataport",
+    "callType": "Port of call",
+    "notes": "Eastern Mediterranean itinerary"
+  },
+  {
+    "date": "2026-05-02",
+    "ship": "Costa Venezia",
+    "cruiseLine": "Costa Cruises",
+    "arrival": "09:00",
+    "departure": "19:00",
+    "timeInPort": "10 hours",
+    "terminal": "Galataport",
+    "callType": "Port of call"
+  },
+  {
+    "date": "2026-05-16",
+    "ship": "Odyssey of the Seas",
+    "cruiseLine": "Royal Caribbean",
+    "arrival": "07:30",
+    "departure": "17:30",
+    "timeInPort": "10 hours",
+    "terminal": "Galataport",
+    "callType": "Port of call",
+    "notes": "Book Hagia Sophia timed entry early on busy Saturdays"
+  },
+  {
+    "date": "2026-05-30",
+    "ship": "Norwegian Viva",
+    "cruiseLine": "Norwegian Cruise Line",
+    "arrival": "08:00",
+    "departure": "18:00",
+    "timeInPort": "10 hours",
+    "terminal": "Galataport",
+    "callType": "Port of call"
+  },
+  {
+    "date": "2026-06-13",
+    "ship": "Celebrity Beyond",
+    "cruiseLine": "Celebrity Cruises",
+    "arrival": "08:30",
+    "departure": "20:00",
+    "timeInPort": "11.5 hours",
+    "terminal": "Galataport",
+    "callType": "Port of call",
+    "notes": "Long call — Europe and Asia day tour feasible"
+  },
+  {
+    "date": "2026-06-27",
+    "ship": "MSC World Europa",
+    "cruiseLine": "MSC Cruises",
+    "arrival": "07:00",
+    "departure": "17:00",
+    "timeInPort": "10 hours",
+    "terminal": "Galataport",
+    "callType": "Port of call"
+  },
+  {
+    "date": "2026-07-11",
+    "ship": "Costa Smeralda",
+    "cruiseLine": "Costa Cruises",
+    "arrival": "08:00",
+    "departure": "18:30",
+    "timeInPort": "10.5 hours",
+    "terminal": "Galataport",
+    "callType": "Port of call"
+  },
+  {
+    "date": "2026-07-25",
+    "ship": "Wonder of the Seas",
+    "cruiseLine": "Royal Caribbean",
+    "arrival": "07:30",
+    "departure": "17:30",
+    "timeInPort": "10 hours",
+    "terminal": "Galataport",
+    "callType": "Port of call",
+    "notes": "Peak summer — expect queues at Topkapi Palace"
+  },
+  {
+    "date": "2026-08-08",
+    "ship": "Norwegian Epic",
+    "cruiseLine": "Norwegian Cruise Line",
+    "arrival": "08:00",
+    "departure": "19:00",
+    "timeInPort": "11 hours",
+    "terminal": "Galataport",
+    "callType": "Port of call"
+  },
+  {
+    "date": "2026-08-22",
+    "ship": "Celebrity Apex",
+    "cruiseLine": "Celebrity Cruises",
+    "arrival": "09:00",
+    "departure": "20:00",
+    "timeInPort": "11 hours",
+    "terminal": "Galataport",
+    "callType": "Port of call"
+  },
+  {
+    "date": "2026-09-05",
+    "ship": "MSC Seaview",
+    "cruiseLine": "MSC Cruises",
+    "arrival": "08:00",
+    "departure": "18:00",
+    "timeInPort": "10 hours",
+    "terminal": "Galataport",
+    "callType": "Port of call"
+  },
+  {
+    "date": "2026-09-19",
+    "ship": "Costa Fortuna",
+    "cruiseLine": "Costa Cruises",
+    "arrival": "08:30",
+    "departure": "17:30",
+    "timeInPort": "9 hours",
+    "terminal": "Galataport",
+    "callType": "Port of call"
+  },
+  {
+    "date": "2026-10-03",
+    "ship": "Jewel of the Seas",
+    "cruiseLine": "Royal Caribbean",
+    "arrival": "08:00",
+    "departure": "18:00",
+    "timeInPort": "10 hours",
+    "terminal": "Galataport",
+    "callType": "Port of call",
+    "notes": "Shoulder season — pleasant temperatures for walking tours"
+  },
+  {
+    "date": "2026-10-17",
+    "ship": "Norwegian Jade",
+    "cruiseLine": "Norwegian Cruise Line",
+    "arrival": "09:00",
+    "departure": "19:00",
+    "timeInPort": "10 hours",
+    "terminal": "Galataport",
+    "callType": "Port of call"
+  },
+  {
+    "date": "2026-11-07",
+    "ship": "MSC Magnifica",
+    "cruiseLine": "MSC Cruises",
+    "arrival": "08:00",
+    "departure": "17:00",
+    "timeInPort": "9 hours",
+    "terminal": "Galataport",
+    "callType": "Port of call"
+  }
+]
