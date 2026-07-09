@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { ResponsiveImage } from "@/components/ResponsiveImage";
 import { buildMetadata } from "@/lib/seo";
 import { PhotoHeroBand } from "@/components/PhotoHeroBand";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
@@ -85,7 +86,11 @@ export default function BestIstanbulCruiseExcursionsPage() {
               return (
                 <Link key={e.slug} href={`/shore-excursions/${e.slug}`} className="card-editorial group overflow-hidden">
                   <div className="relative aspect-[16/9] overflow-hidden">
-                    <img src={img.src} alt={img.alt} className="h-full w-full object-cover transition-transform duration-500 group-hover:scale-105" loading="lazy" />
+                    <ResponsiveImage
+                    image={img}
+                    role="card"
+                    imgClassName="h-full w-full object-cover transition-transform duration-500 group-hover:scale-105"
+                  />
                   </div>
                   <div className="p-5">
                     <h3 className="font-display text-lg font-bold text-gray-900 group-hover:text-coastal-800">{e.title}</h3>

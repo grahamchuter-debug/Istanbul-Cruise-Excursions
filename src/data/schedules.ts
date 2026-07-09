@@ -37,9 +37,8 @@ export const schedulePorts: ShipSchedulePort[] = [
     slug: "istanbul",
     name: "Istanbul",
     country: "Turkey",
-    seoTitle: "Istanbul Cruise Ship Schedule 2026",
-    metaDescription:
-      "Istanbul cruise ship schedule hub. See which ships are in port at Galataport and plan Hagia Sophia, Bosphorus and Old City shore excursions around published arrival and departure times.",
+    seoTitle: "Istanbul Cruise Ship Schedule Overview",
+    metaDescription: "Istanbul cruise ship schedule hub. See which ships are in port at Galataport and plan Hagia Sophia, Bosphorus and Old City shore excursions around published…",
     intro:
       "Istanbul is one of the Mediterranean's great cultural cruise ports, with ships docking at Galataport on the Bosphorus. Check which vessels are scheduled before you book excursions or plan your day across Europe and Asia.",
     description:

@@ -9,7 +9,16 @@ import { readdirSync, readFileSync, statSync, existsSync } from "node:fs";
 import { join, resolve } from "node:path";
 
 const OUT_DIR = resolve(process.cwd(), "out");
-const PREFERRED_HOST = "https://istanbulcruiseexcursions.com";
+const ROOT = join(import.meta.dirname, "..");
+
+function getSiteConfig() {
+  const siteTs = readFileSync(join(ROOT, "src/lib/site.ts"), "utf8");
+  const url = siteTs.match(/url:\s*"([^"]+)"/)?.[1]?.replace(/\/$/, "");
+  const domain = siteTs.match(/domain:\s*"([^"]+)"/)?.[1];
+  if (!url || !domain) throw new Error("Could not parse SITE from src/lib/site.ts");
+  return { url, domain };
+}
+const { url: PREFERRED_HOST } = getSiteConfig();
 
 if (!existsSync(OUT_DIR)) {
   console.error("No 'out' directory found. Run `npm run build` first.");

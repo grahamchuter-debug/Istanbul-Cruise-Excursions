@@ -6,8 +6,7 @@ export const guides: GuidePage[] = [
     path: "/hagia-sophia-from-cruise-port",
     title: "Hagia Sophia from Galataport",
     seoTitle: "Hagia Sophia from Galataport Cruise Port — Timing & Access Guide",
-    metaDescription:
-      "Visit Hagia Sophia from Galataport on a cruise day — tram routes, queue timing, dress code, what to see inside and honest return-to-ship advice for cruise passengers.",
+    metaDescription: "Visit Hagia Sophia from Galataport on a cruise day — tram routes, queue timing, dress code, what to see inside and honest return-to-ship advice for cruise…",
     eyebrow: "Hagia Sophia",
     tagline:
       "Byzantine dome, Ottoman calligraphy and 1,500 years of history — Istanbul's defining monument, reachable from Galataport on any sensible port day.",

@@ -5,8 +5,7 @@ export const excursions: ExcursionPage[] = [
     slug: "istanbul-highlights-tour",
     title: "Istanbul Highlights Tour",
     seoTitle: "Istanbul Highlights Shore Excursion from Galataport",
-    metaDescription:
-      "See Istanbul's essential sights in one port day — Hagia Sophia, Blue Mosque, Hippodrome and Sultanahmet — with return timing built around your ship's all-aboard at Galataport.",
+    metaDescription: "See Istanbul's essential sights in one port day — Hagia Sophia, Blue Mosque, Hippodrome and Sultanahmet — with return timing built around your ship's…",
     category: "Overview tour",
     tagline:
       "Byzantine domes, Ottoman minarets and the heart of the Historic Peninsula in a single, well-paced introduction.",
@@ -90,8 +89,7 @@ export const excursions: ExcursionPage[] = [
     slug: "hagia-sophia-and-blue-mosque-tour",
     title: "Hagia Sophia & Blue Mosque Tour",
     seoTitle: "Hagia Sophia & Blue Mosque Shore Excursion from Galataport",
-    metaDescription:
-      "Explore Hagia Sophia and the Blue Mosque on a focused Sultanahmet shore excursion for cruise passengers — expert guiding, dress-code help and reliable return to Galataport.",
+    metaDescription: "Explore Hagia Sophia and the Blue Mosque on a focused Sultanahmet shore excursion for cruise passengers — expert guiding, dress-code help and reliable…",
     category: "Historic sights",
     tagline:
       "Two world-famous neighbours — a thousand years of faith and architecture in one square.",
@@ -175,8 +173,7 @@ export const excursions: ExcursionPage[] = [
     slug: "topkapi-palace-tour",
     title: "Topkapi Palace Tour",
     seoTitle: "Topkapi Palace Shore Excursion from Galataport",
-    metaDescription:
-      "Tour Topkapi Palace on an Istanbul shore excursion — Ottoman courts, treasury, harem option and Bosphorus views — with pickup at Galataport and return timed to your ship.",
+    metaDescription: "Tour Topkapi Palace on an Istanbul shore excursion — Ottoman courts, treasury, harem option and Bosphorus views — with pickup at Galataport and return timed…",
     category: "Palace & museums",
     tagline:
       "Four centuries of sultans, silks and seraglio intrigue above the Golden Horn.",
@@ -260,8 +257,7 @@ export const excursions: ExcursionPage[] = [
     slug: "basilica-cistern-tour",
     title: "Basilica Cistern Tour",
     seoTitle: "Basilica Cistern Shore Excursion from Galataport",
-    metaDescription:
-      "Descend into the Basilica Cistern on an Istanbul shore excursion — Byzantine columns, Medusa heads and underground atmosphere — combined with Sultanahmet sights and Galataport return.",
+    metaDescription: "Descend into the Basilica Cistern on an Istanbul shore excursion — Byzantine columns, Medusa heads and underground atmosphere — combined with Sultanahmet…",
     category: "Historic sights",
     tagline:
       "A cathedral of water beneath the city — 336 columns in cool, echoing darkness.",
@@ -345,8 +341,7 @@ export const excursions: ExcursionPage[] = [
     slug: "grand-bazaar-and-spice-bazaar-tour",
     title: "Grand Bazaar & Spice Bazaar Tour",
     seoTitle: "Grand Bazaar & Spice Bazaar Shore Excursion from Galataport",
-    metaDescription:
-      "Shop and savour Istanbul's Grand Bazaar and Spice Bazaar on a cruise excursion — guided navigation, tasting time and a clear path back to Galataport before all-aboard.",
+    metaDescription: "Shop and savour Istanbul's Grand Bazaar and Spice Bazaar on a cruise excursion — guided navigation, tasting time and a clear path back to Galataport before…",
     category: "Markets & culture",
     tagline:
       "Four thousand shops, saffron air and the art of bargaining in the city's great covered markets.",
@@ -430,8 +425,7 @@ export const excursions: ExcursionPage[] = [
     slug: "bosphorus-cruise",
     title: "Bosphorus Cruise",
     seoTitle: "Bosphorus Cruise Shore Excursion from Galataport",
-    metaDescription:
-      "Cruise the Bosphorus on an Istanbul shore excursion — palaces, fortresses and the Europe–Asia shoreline — departing near Galataport with return timed to your ship.",
+    metaDescription: "Cruise the Bosphorus on an Istanbul shore excursion — palaces, fortresses and the Europe–Asia shoreline — departing near Galataport with return timed to…",
     category: "Bosphorus",
     tagline:
       "The strait that split continents — waterfront palaces, fishing villages and two shores in one afternoon.",
@@ -515,8 +509,7 @@ export const excursions: ExcursionPage[] = [
     slug: "europe-and-asia-tour",
     title: "Europe & Asia Tour",
     seoTitle: "Europe & Asia Istanbul Shore Excursion from Galataport",
-    metaDescription:
-      "Cross continents on an Europe and Asia Istanbul shore excursion — Bosphorus views, Üsküdar or Kadıköy and a second perspective on the city, with reliable return to Galataport.",
+    metaDescription: "Cross continents on an Europe and Asia Istanbul shore excursion — Bosphorus views, Üsküdar or Kadıköy and a second perspective on the city, with reliable…",
     category: "Europe & Asia",
     tagline:
       "Two continents in one port day — minarets from the Asian shore and the bridges that bind them.",
@@ -685,8 +678,7 @@ export const excursions: ExcursionPage[] = [
     slug: "private-istanbul-shore-excursion",
     title: "Private Istanbul Shore Excursion",
     seoTitle: "Private Istanbul Shore Excursion from Galataport",
-    metaDescription:
-      "Build a private Istanbul shore excursion from Galataport — your choice of Hagia Sophia, Topkapi, bazaars or Bosphorus — with a dedicated guide and ship-tracked return timing.",
+    metaDescription: "Build a private Istanbul shore excursion from Galataport — your choice of Hagia Sophia, Topkapi, bazaars or Bosphorus — with a dedicated guide and…",
     category: "Private tour",
     tagline:
       "Your ship, your hours, your Istanbul — a custom day with one guide and one plan.",
@@ -775,8 +767,7 @@ export const excursions: ExcursionPage[] = [
     slug: "istanbul-walking-tour",
     title: "Istanbul Walking Tour",
     seoTitle: "Istanbul Walking Tour Shore Excursion from Galataport",
-    metaDescription:
-      "Explore Sultanahmet on foot with an Istanbul walking tour shore excursion — Hippodrome, mosques, hidden lanes and local stories, with tram transfer from Galataport.",
+    metaDescription: "Explore Sultanahmet on foot with an Istanbul walking tour shore excursion — Hippodrome, mosques, hidden lanes and local stories, with tram transfer from…",
     category: "Walking tour",
     tagline:
       "Slow down in Sultanahmet — cobbled lanes, Roman stones and stories at street level.",
