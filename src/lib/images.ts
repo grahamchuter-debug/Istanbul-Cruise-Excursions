@@ -12,18 +12,22 @@ function img(base: string, alt: string): SiteImage {
 
 export const siteImages = {
   hero: {
+    base: "hero-home",
     src: `${B}/hero-home.jpg`,
     alt: "Hagia Sophia and Blue Mosque skyline above the Golden Horn at golden hour — Istanbul cruise port",
   },
   ogDefault: {
+    base: "og-default",
     src: `${B}/og-default.jpg`,
     alt: "Istanbul Historic Peninsula with Hagia Sophia dome and minarets — cruise excursion planning",
   },
   logo: {
+    base: "logo-mark",
     src: `${B}/logo-mark.svg`,
     alt: "Istanbul Cruise Excursions",
   },
   port: {
+    base: "cruise-port",
     src: `${B}/cruise-port.jpg`,
     alt: "Galataport Istanbul cruise terminal on the Bosphorus waterfront",
   },
